@@ -1,0 +1,8 @@
+#logo #logo-text {
+    @include sm {
+    display: none;
+  }
+    @include lg {
+    display: inline;
+  }
+}
