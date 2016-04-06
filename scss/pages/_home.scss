@@ -1,8 +1,110 @@
+#logo {
+  .st0 {
+    fill:$corgi-red;
+  }
+  .st1 {
+    fill:$red-eyebrows
+  }
+  .st2 {
+    fill:$fawn-eyebrows
+  }
+}
+
 #logo #logo-text {
     @include sm {
     display: none;
   }
     @include lg {
     display: inline;
+  }
+}
+
+h1 {
+  @include lg {
+    display: none;
+  }
+}
+
+#corgi-red {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px;
+.st0 {
+  fill:$corgi-red;
+}
+.st1 {
+  fill:$nearly-white;
+}
+.st2 {
+  fill:$nearly-black
+}
+.st3 {
+  fill:$red-eyebrows
+}
+}
+
+#corgi-fawn {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px;
+.st0 {
+  fill:$red-eyebrows
+}
+.st1 {
+  fill:$nearly-white;
+}
+.st2 {
+  fill:$nearly-black
+}
+.st3 {
+  fill:$fawn-eyebrows
+}
+}
+
+#corgi-sable {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px;
+.st0 {
+  fill:$corgi-sable
+}
+.st1 {
+  fill:$nearly-white;
+}
+.st2 {
+  fill:$nearly-black
+}
+.st3 {
+  fill:$corgi-red;
+}
+}
+
+#corgi-blacktan {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px;
+.st0 {
+  fill:$corgi-red;
+}
+.st1 {
+  fill:$corgi-blacktan
+}
+.st2 {
+  fill:$nearly-white;
+}
+.st3 {
+  fill:$nearly-black
+}
+}
+
+#nav-heart,
+#nav-location,
+#nav-contact {
+  height: 13px;
+  .st0 {
+    fill:$navcolor;
+    // &:hover {
+    //   fill: #111;
+    // }
   }
 }

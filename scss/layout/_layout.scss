@@ -9,7 +9,7 @@ header {
     nav {
       padding-bottom: 50px;
       text-align: left;
-      
+
       ul li {
         display: inline-block;
         margin-right: 20px;
@@ -31,9 +31,9 @@ main {
     }
     li {
       display: inline-block;
-      color: #ba8058;
+      color: $corgi-red;
       margin-right: 20px;
-      
+
       img {
         margin-bottom: 15px;
       }
@@ -51,5 +51,5 @@ footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
-  color: #ba8058;
+  color: $corgi-red;
 }

@@ -6,11 +6,20 @@ p {
 
 a {
   text-decoration: none;
-  color: #39add1;
+  color: #39ADD1;
   font-weight: 700; }
 
-a:hover {
-  color: #111; }
+#li-contact:hover #path-contact,
+#li-heart:hover #path-heart,
+#li-location:hover #path-location {
+  fill: #111;
+  transition: 0.2s; }
+
+#li-contact:hover > a,
+#li-heart:hover > a,
+#li-location:hover > a {
+  color: #111;
+  transition: 0.2s; }
 
 body {
   margin: 0;
@@ -46,7 +55,7 @@ main {
     padding: 0; }
   main li {
     display: inline-block;
-    color: #ba8058;
+    color: #BA8058;
     margin-right: 20px; }
     main li img {
       margin-bottom: 15px; }
@@ -59,7 +68,14 @@ footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
-  color: #ba8058; }
+  color: #BA8058; }
+
+#logo .st0 {
+  fill: #BA8058; }
+#logo .st1 {
+  fill: #EAAA7F; }
+#logo .st2 {
+  fill: #F4C6A6; }
 
 @media (max-width: 419px) {
   #logo #logo-text {
@@ -68,4 +84,67 @@ footer {
   #logo #logo-text {
     display: inline; } }
 
-/*# sourceMappingURL=styles.css.map */
+@media (min-width: 420px) {
+  h1 {
+    display: none; } }
+
+#corgi-red {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px; }
+  #corgi-red .st0 {
+    fill: #BA8058; }
+  #corgi-red .st1 {
+    fill: #FBFEFF; }
+  #corgi-red .st2 {
+    fill: #2D3339; }
+  #corgi-red .st3 {
+    fill: #EAAA7F; }
+
+#corgi-fawn {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px; }
+  #corgi-fawn .st0 {
+    fill: #EAAA7F; }
+  #corgi-fawn .st1 {
+    fill: #FBFEFF; }
+  #corgi-fawn .st2 {
+    fill: #2D3339; }
+  #corgi-fawn .st3 {
+    fill: #F4C6A6; }
+
+#corgi-sable {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px; }
+  #corgi-sable .st0 {
+    fill: #844B24; }
+  #corgi-sable .st1 {
+    fill: #FBFEFF; }
+  #corgi-sable .st2 {
+    fill: #2D3339; }
+  #corgi-sable .st3 {
+    fill: #BA8058; }
+
+#corgi-blacktan {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 15px; }
+  #corgi-blacktan .st0 {
+    fill: #BA8058; }
+  #corgi-blacktan .st1 {
+    fill: #52595F; }
+  #corgi-blacktan .st2 {
+    fill: #FBFEFF; }
+  #corgi-blacktan .st3 {
+    fill: #2D3339; }
+
+#nav-heart,
+#nav-location,
+#nav-contact {
+  height: 13px; }
+  #nav-heart .st0,
+  #nav-location .st0,
+  #nav-contact .st0 {
+    fill: #39ADD1; }

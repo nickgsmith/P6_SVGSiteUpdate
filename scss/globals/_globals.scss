@@ -7,13 +7,24 @@ p {
 
 a {
   text-decoration: none;
-  color: #39add1;
+  color: $navcolor;
   font-weight: 700;
   }
-  a:hover {
-    color: #111;
-  }
-  
+
+#li-contact:hover #path-contact,
+#li-heart:hover #path-heart,
+#li-location:hover #path-location {
+  fill: #111;
+  transition: 0.2s
+}
+
+#li-contact:hover > a,
+#li-heart:hover > a,
+#li-location:hover > a {
+  color: #111;
+  transition: 0.2s
+}
+
 body {
   margin: 0;
   padding: 0;
